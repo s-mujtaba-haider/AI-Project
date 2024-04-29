@@ -166,7 +166,7 @@ In conclusion, this project demonstrates the effectiveness of various deep learn
 
 <b>BiLSTM Model</b> is the <b>second-best</b> with lower MSE (323597.97) and MAE (405.98) compared to the GRU model but better than LSTM and RNN. The R^2 value (99.57) is also better than LSTM and RNN.<br><br>
 
-<b>RNN Model</b> and <b>LSTM Model</b> have the MSE (3833435.63 for RNN and 19679653.08 for LSTM), MAE (1063.58 for RNN and 2538.23 for LSTM), and the R^2 (94.93 for LSTM and 73.99 for LSTM), indicating <b>poorer performance</b> compared to BiLSTM and GRU models.<br><br>
+<b>RNN Model</b> and <b>LSTM Model</b> have the MSE (3833435.63 for RNN and 19679653.08 for LSTM), MAE (1063.58 for RNN and 2538.23 for LSTM), and the R^2 (94.93 for RNN and 73.99 for LSTM), indicating <b>poorer performance</b> compared to BiLSTM and GRU models.<br><br>
 
 **Hence,**
 <br>
