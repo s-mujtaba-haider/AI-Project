@@ -84,7 +84,10 @@ The following deep learning models are implemented for stock price prediction:
 
 
 ## Training and Evaluation
-The dataset is split into training and testing sets, with a portion of the data reserved for validation during training. Each model is trained using the training data and evaluated using the testing data. Evaluation metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) are calculated to assess the performance of each model.
+The dataset is split into training and testing sets, with a portion of the data reserved for validation during training. Each model is trained using the training data and evaluated using the testing data. Evaluation metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (MSE) are calculated to assess the performance of each model.
+
+![11](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/f44943c6-7d72-44ad-b997-8d0abbc546e0)
+
 
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
