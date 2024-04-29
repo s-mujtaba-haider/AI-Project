@@ -49,17 +49,17 @@ Handling Missing Values: Missing values were filled with the mean of the column 
 <br><br>
 Feature Engineering: <br><br>No explicit feature engineering was performed in the provided code. However, extracting relevant features from the time-series data can help in capturing meaningful patterns and trends. Feature engineering techniques such as rolling window statistics, technical indicators (e.g., moving averages, RSI), and lagged features can be explored to capture the underlying patterns in the data better.
 
-- -**Model Overfitting**:<br><br>
+- - **Model Overfitting**:<br><br>
 To prevent overfitting while training the models:
 <br><br>
-- -Train-Test Split:
+- - Train-Test Split:
 <br><br>The dataset was split into training and testing sets to evaluate the model's performance on unseen data.
 <br><br>
-- -Regularization:<br><br> No explicit regularization techniques like dropout or L2 regularization were used in the provided code. Incorporating dropout layers or L2 regularization can help in preventing overfitting and improving the model's generalization capabilities.
+- - Regularization:<br><br> No explicit regularization techniques like dropout or L2 regularization were used in the provided code. Incorporating dropout layers or L2 regularization can help in preventing overfitting and improving the model's generalization capabilities.
 <br><br>
-- -Model Complexity:<br><br> The models used in the provided code (RNN, GRU LSTM, BiLSTM) have a relatively simple architecture. Experimenting with different architectures, adding more layers, or adjusting the number of units can help in capturing the underlying patterns in the data without overfitting.
+- - Model Complexity:<br><br> The models used in the provided code (RNN, GRU LSTM, BiLSTM) have a relatively simple architecture. Experimenting with different architectures, adding more layers, or adjusting the number of units can help in capturing the underlying patterns in the data without overfitting.
 <br><br>
-- -Hyperparameter Tuning: <br><br>Hyperparameters like learning rate, batch size, and number of epochs were not explicitly optimized in the provided code. Hyperparameter tuning using techniques like grid search or random search can help in finding the optimal set of hyperparameters that yield the best performance without overfitting.
+- - Hyperparameter Tuning: <br><br>Hyperparameters like learning rate, batch size, and number of epochs were not explicitly optimized in the provided code. Hyperparameter tuning using techniques like grid search or random search can help in finding the optimal set of hyperparameters that yield the best performance without overfitting.
 
 
 
