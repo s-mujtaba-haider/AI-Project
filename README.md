@@ -106,21 +106,29 @@ The performance of the RNN model can be assessed based on the following regressi
 - - MSE: 78530.71<br>
 - - MAE: 201.89<br>
 - - R^2: 99.9<br>
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/44cccd16-bbf8-4346-b942-57c035c7f2f2)
+
 - BiLSTM
 - - BiLSTM Model Loss: 0.00049<br>
 - - MSE: 323597.97<br>
 - - MAE: 405.98<br>
 - - R^2: 99.57<br>
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/dc228fca-2305-4424-9c05-41c90fb99b49)
+
 - RNN
 - - RNN Model Loss: 0.0058
 - - MSE: 3833435.63
 - - MAE: 1063.58
 - - R^2: 94.93
+![12](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/4482f3ca-7e81-4f74-b534-c7e7efb2e40f)
+
 - LSTM
 - - LSTM Model Loss: 0.03<br>
 - - MSE: 19679653.08<br>
 - - MAE: 2538.23<br>
 - - R^2: 73.99<br>
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/0a9944b8-324b-424f-8aae-a553f32d3046)
+
 
 **All** **the** **models** **are** **train** **on** **batch_size** **=** **64** **and** **epoch** **=** **300**
 ## Visualization
