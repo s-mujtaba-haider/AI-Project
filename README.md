@@ -65,6 +65,8 @@ To prevent overfitting while training the models:
 
 - **Sequence Generation**: The dataset is split into sequences of fixed length, with each sequence representing a window of historical data. This step is crucial for training the sequential models like RNN, LSTM, BiLSTM, and GRU.
 
+  **We** **use** **only** **Open**, **High** and **Low** as features and rest columns are dropped and Target Variable will be **LTP**.
+
 ![6](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/db150095-5223-4fd1-a4b9-63d777ef7048)
 
 
