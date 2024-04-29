@@ -176,10 +176,8 @@ It's worth noting that while the GRU model performed the best based on these met
 
 For further details and implementation, please refer to the code repository on GitHub.
 
-**GitHub Repository Link**: 
+**GitHub Repository Link**: https://github.com/s-mujtaba-haider/AI-Project
 
-**Author**: [Your Name]
+**Author**: Mujtaba Haider and Khurram Imran
 
-**Date**: [Date]
-
-**License**: [License information]
+**Date**: 29th April, 2024
