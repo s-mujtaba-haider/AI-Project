@@ -71,9 +71,17 @@ To prevent overfitting while training the models:
 ## Deep Learning Models
 The following deep learning models are implemented for stock price prediction:
 1. **Recurrent Neural Network (RNN)**: A basic RNN model is trained on the sequence data to capture temporal dependencies.
+   ![7](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/166728c6-f2bb-4192-bc7f-a672b74fcb57)
+
 2. **Long Short-Term Memory (LSTM)**: LSTM networks are used to overcome the vanishing gradient problem in traditional RNNs and better capture long-term dependencies.
+   ![8](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/03a61651-ef48-4d45-96a3-5af921b32a32)
+
 3. **Bidirectional LSTM (BiLSTM)**: BiLSTM networks are employed to leverage both past and future information for prediction.
+   ![9](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/f676ef98-4fd5-42a6-b719-d0ed065435b3)
+
 4. **Gated Recurrent Unit (GRU)**: Similar to LSTM, GRU networks are designed to capture long-term dependencies but with fewer parameters.
+   ![10](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/92a3fa7d-ce5a-4682-affa-18c99c44a87a)
+
 
 ## Training and Evaluation
 The dataset is split into training and testing sets, with a portion of the data reserved for validation during training. Each model is trained using the training data and evaluated using the testing data. Evaluation metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE) are calculated to assess the performance of each model.
