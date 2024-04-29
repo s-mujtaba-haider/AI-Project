@@ -83,7 +83,7 @@ The following deep learning models are implemented for stock price prediction:
    ![10](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/92a3fa7d-ce5a-4682-affa-18c99c44a87a)
 
 
-## Training and Evaluation
+## Training and Testing
 The dataset is split into training and testing sets, with a portion of the data reserved for validation during training. Each model is trained using the training data and evaluated using the testing data. Evaluation metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (MSE) are calculated to assess the performance of each model.
 
 ![11](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/f44943c6-7d72-44ad-b997-8d0abbc546e0)
@@ -98,6 +98,30 @@ The performance of the RNN model can be assessed based on the following regressi
 - - Mean Absolute Error (MAE): <br><br>It measures the average absolute difference between the predicted and actual values. Lower values of MAE indicate better model performance.
 <br><br>
 - - R-squared (R^2):<br><br> It represents the proportion of the variance for the dependent variable that's explained by independent variables in the model. A higher value of R^2 indicates a better fit of the model to the data.
+ 
+## Models Evaluation
+
+- GRU
+- - GRU Model Loss: 0.00011<br>
+- - MSE: 78530.71<br>
+- - MAE: 201.89<br>
+- - R^2: 99.9<br>
+- BiLSTM
+- - BiLSTM Model Loss: 0.00049<br>
+- - MSE: 323597.97<br>
+- - MAE: 405.98<br>
+- - R^2: 99.57<br>
+- RNN
+- - RNN Model Loss: 0.0058
+- - MSE: 3833435.63
+- - MAE: 1063.58
+- - R^2: 94.93
+- LSTM
+- - LSTM Model Loss: 0.03<br>
+- - MSE: 19679653.08<br>
+- - MAE: 2538.23<br>
+- - R^2: 73.99<br>
+
 
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
