@@ -153,6 +153,21 @@ To visualize the performance of the models, the predicted stock prices are compa
 ## Conclusion
 In conclusion, this project demonstrates the effectiveness of various deep learning models in predicting stock prices. By preprocessing the data and utilizing models such as RNN, LSTM, BiLSTM, and GRU, accurate predictions can be made, aiding investors in making informed decisions. The visualization techniques employed provide insights into the performance of the models and aid in interpreting the results.
 
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/7c78bb8b-4164-4dfe-9919-c47e04457425)
+
+**Ranking**:
+
+<b>Based on the performance metrics:</b>
+<br><br>
+
+<b>GRU Model</b> has the lowest MSE (285347.94), lowest MAE (278.486), and the highest R^2 (99.623) among all the models, making it the <b>best-performing</b> model among the ones evaluated.<br><br>
+
+<b>LSTM Model</b> is the <b>second-best</b> with higher MSE (646347.43) and MAE (532.53) compared to the GRU model but better than LSTM and BiLSTM. The R^2 value (99.145) is also better than LSTM and BiLSTM.<br><br>
+
+<b>RNN Model</b> and <b>BiLSTM Model</b> have the MSE (6467789.321 for RNN and 14020087.49 for BiLSTM), MAE (1223.835 for RNN and 2086.949 for BiLSTM), and the R^2 (91.453 for LSTM and 81.472 for BiLSTM), indicating <b>poorer performance</b> compared to RNN and GRU models.<br><br>
+
+
+
 For further details and implementation, please refer to the code repository on GitHub.
 
 **GitHub Repository Link**: [link]
