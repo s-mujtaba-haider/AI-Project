@@ -23,6 +23,14 @@ The dataset is split into training and testing sets, with a portion of the data 
 
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
+
+This is pairplot.
+
+![2](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/425ba2bd-dde7-420b-8bf8-a9d927c711b6)
+
+
+This is HeatMap, which will tell us about the correlation of different attributes
+
 ![1](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/9a845786-963f-43a4-8b09-add7fc49a9c0)
 
 
