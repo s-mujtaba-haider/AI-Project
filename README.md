@@ -33,19 +33,26 @@ According to this HeatMap, Open, high, low and LTP are highly co-related feature
 ## Preprocessing
 Before feeding the data into the deep learning models, several preprocessing steps are performed:
 - **Normalization**: All features are normalized to ensure that they are on the same scale, preventing any particular feature from dominating the others.
+- - **Noise and Volatility**:<br>
+To address the noise and volatility in the data:
+<br><br>
+Data Preprocessing:<br><br> The data was preprocessed to remove commas and convert all columns to numeric values. Handling missing values by filling them with the mean of the column helps in reducing noise and ensuring that the dataset is clean before training the models.
+<br><br>
+Model Architecture:<br><br> Deep learning models like GRU, LSTM and BiLSTM are capable of capturing complex patterns and long-term dependencies in the data, which can help in filtering out noise and identifying relevant signals amidst volatility.
 
-- ##Non-stationary Data:<br>
+
+- **Non-stationary Data**:<br>
 To handle non-stationary data, the following preprocessing steps were implemented:
 <br><br>
-
 Normalization: <br><br>
 MinMaxScaler was used to scale the features to a specific range (0, 1). Normalizing the data helps in stabilizing the training process and improving convergence.
 <br><br>
 Handling Missing Values: Missing values were filled with the mean of the column to ensure that the dataset is complete before training the models.
 <br><br>
 Feature Engineering: <br><br>No explicit feature engineering was performed in the provided code. However, extracting relevant features from the time-series data can help in capturing meaningful patterns and trends. Feature engineering techniques such as rolling window statistics, technical indicators (e.g., moving averages, RSI), and lagged features can be explored to capture the underlying patterns in the data better.
-- **Sequence Generation**: The dataset is split into sequences of fixed length, with each sequence representing a window of historical data. This step is crucial for training the sequential models like RNN, LSTM, BiLSTM, and GRU.
 
+- **Sequence Generation**: The dataset is split into sequences of fixed length, with each sequence representing a window of historical data. This step is crucial for training the sequential models like RNN, LSTM, BiLSTM, and GRU.
+- 
 ## Deep Learning Models
 The following deep learning models are implemented for stock price prediction:
 1. **Recurrent Neural Network (RNN)**: A basic RNN model is trained on the sequence data to capture temporal dependencies.
