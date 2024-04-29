@@ -64,7 +64,10 @@ To prevent overfitting while training the models:
 
 
 - **Sequence Generation**: The dataset is split into sequences of fixed length, with each sequence representing a window of historical data. This step is crucial for training the sequential models like RNN, LSTM, BiLSTM, and GRU.
-- 
+
+![6](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/db150095-5223-4fd1-a4b9-63d777ef7048)
+
+
 ## Deep Learning Models
 The following deep learning models are implemented for stock price prediction:
 1. **Recurrent Neural Network (RNN)**: A basic RNN model is trained on the sequence data to capture temporal dependencies.
