@@ -7,7 +7,7 @@ This project aims to predict stock prices using various deep learning models suc
 The dataset used for this project consists of historical stock price data obtained from kaggle (https://www.kaggle.com/datasets/iamsouravbanerjee/nifty50-stocks-dataset/data). It includes features such as opening price, closing price, highest price, lowest price, and volume traded for each day.
 This dataset looks like this:
 
-This is pairplot.
+This is pairplot graph of all attributes.
 
 ![2](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/425ba2bd-dde7-420b-8bf8-a9d927c711b6)
 
