@@ -33,6 +33,17 @@ According to this HeatMap, Open, high, low and LTP are highly co-related feature
 ## Preprocessing
 Before feeding the data into the deep learning models, several preprocessing steps are performed:
 - **Normalization**: All features are normalized to ensure that they are on the same scale, preventing any particular feature from dominating the others.
+
+- ##Non-stationary Data:<br>
+To handle non-stationary data, the following preprocessing steps were implemented:
+<br><br>
+
+Normalization: <br><br>
+MinMaxScaler was used to scale the features to a specific range (0, 1). Normalizing the data helps in stabilizing the training process and improving convergence.
+<br><br>
+Handling Missing Values: Missing values were filled with the mean of the column to ensure that the dataset is complete before training the models.
+<br><br>
+Feature Engineering: <br><br>No explicit feature engineering was performed in the provided code. However, extracting relevant features from the time-series data can help in capturing meaningful patterns and trends. Feature engineering techniques such as rolling window statistics, technical indicators (e.g., moving averages, RSI), and lagged features can be explored to capture the underlying patterns in the data better.
 - **Sequence Generation**: The dataset is split into sequences of fixed length, with each sequence representing a window of historical data. This step is crucial for training the sequential models like RNN, LSTM, BiLSTM, and GRU.
 
 ## Deep Learning Models
