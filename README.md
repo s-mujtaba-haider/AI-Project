@@ -120,7 +120,7 @@ The performance of the RNN model can be assessed based on the following regressi
 - - MSE: 3833435.63
 - - MAE: 1063.58
 - - R^2: 94.93
-    ![12](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/4482f3ca-7e81-4f74-b534-c7e7efb2e40f)
+![12](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/4482f3ca-7e81-4f74-b534-c7e7efb2e40f)
 
 - LSTM
 - - LSTM Model Loss: 0.03<br>
