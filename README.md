@@ -166,7 +166,7 @@ In conclusion, this project demonstrates the effectiveness of various deep learn
 
 <b>RNN Model</b> and <b>LSTM Model</b> have the MSE (3833435.63 for RNN and 19679653.08 for LSTM), MAE (1063.58 for RNN and 2538.23 for LSTM), and the R^2 (94.93 for LSTM and 73.99 for LSTM), indicating <b>poorer performance</b> compared to BiLSTM and GRU models.<br><br>
 
-##Conclusion:
+**Hence,**
 <br>
 <b>GRU Model</b> is the <b>best-performing model</b> for stock market price prediction among the evaluated models, followed by the <b>BiLSTM Model</b>.
 <br><br>
@@ -176,7 +176,7 @@ It's worth noting that while the GRU model performed the best based on these met
 
 For further details and implementation, please refer to the code repository on GitHub.
 
-**GitHub Repository Link**: [link]
+**GitHub Repository Link**: 
 
 **Author**: [Your Name]
 
