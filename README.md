@@ -88,6 +88,16 @@ The dataset is split into training and testing sets, with a portion of the data 
 
 ![11](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/f44943c6-7d72-44ad-b997-8d0abbc546e0)
 
+## Performance Measures
+
+The performance of the RNN model can be assessed based on the following regression metrics:
+<br><br>
+
+- - Mean Squared Error (MSE): <br><br>It measures the average squared difference between the predicted and actual values. Lower values of MSE indicate better model performance.
+<br><br>
+- - Mean Absolute Error (MAE): <br><br>It measures the average absolute difference between the predicted and actual values. Lower values of MAE indicate better model performance.
+<br><br>
+- - R-squared (R^2):<br><br> It represents the proportion of the variance for the dependent variable that's explained by independent variables in the model. A higher value of R^2 indicates a better fit of the model to the data.
 
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
