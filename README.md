@@ -160,13 +160,19 @@ In conclusion, this project demonstrates the effectiveness of various deep learn
 <b>Based on the performance metrics:</b>
 <br><br>
 
-<b>GRU Model</b> has the lowest MSE (285347.94), lowest MAE (278.486), and the highest R^2 (99.623) among all the models, making it the <b>best-performing</b> model among the ones evaluated.<br><br>
+<b>GRU Model</b> has the lowest MSE (78530.71), lowest MAE (201.89), and the highest R^2 (99.9) among all the models, making it the <b>best-performing</b> model among the ones evaluated.<br><br>
 
-<b>LSTM Model</b> is the <b>second-best</b> with higher MSE (646347.43) and MAE (532.53) compared to the GRU model but better than LSTM and BiLSTM. The R^2 value (99.145) is also better than LSTM and BiLSTM.<br><br>
+<b>BiLSTM Model</b> is the <b>second-best</b> with lower MSE (323597.97) and MAE (405.98) compared to the GRU model but better than LSTM and RNN. The R^2 value (99.57) is also better than LSTM and RNN.<br><br>
 
-<b>RNN Model</b> and <b>BiLSTM Model</b> have the MSE (6467789.321 for RNN and 14020087.49 for BiLSTM), MAE (1223.835 for RNN and 2086.949 for BiLSTM), and the R^2 (91.453 for LSTM and 81.472 for BiLSTM), indicating <b>poorer performance</b> compared to RNN and GRU models.<br><br>
+<b>RNN Model</b> and <b>LSTM Model</b> have the MSE (3833435.63 for RNN and 19679653.08 for LSTM), MAE (1063.58 for RNN and 2538.23 for LSTM), and the R^2 (94.93 for LSTM and 73.99 for LSTM), indicating <b>poorer performance</b> compared to BiLSTM and GRU models.<br><br>
 
-
+##Conclusion:
+<br>
+<b>GRU Model</b> is the <b>best-performing model</b> for stock market price prediction among the evaluated models, followed by the <b>BiLSTM Model</b>.
+<br><br>
+<b>RNN Model</b> and <b>LSTM Model</b> performed relatively <b>poorly compared to the GRU and BiLSTM models</b>.
+<br><br>
+It's worth noting that while the GRU model performed the best based on these metrics, it's essential to consider other factors like model complexity, training time, and interpretability when choosing the best model for a specific application.
 
 For further details and implementation, please refer to the code repository on GitHub.
 
