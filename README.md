@@ -178,7 +178,7 @@ It's worth noting that while the GRU model performed the best based on these met
 
 For further details and implementation, please refer to the code repository on GitHub.
 
-**GitHub Repository Link**: https://github.com/s-mujtaba-haider/AI-Project
+**GitHub Repository Link**: https://github.com/s-mujtaba-haider/Stock-Price-Prediction
 
 **Author**: Mujtaba Haider and Khurram Imran
 
