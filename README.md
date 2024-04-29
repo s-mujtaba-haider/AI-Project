@@ -122,7 +122,7 @@ The performance of the RNN model can be assessed based on the following regressi
 - - MAE: 2538.23<br>
 - - R^2: 73.99<br>
 
-
+**All** **the** **models** **are** **train** **on** **batch_size** **=** **64** **and** **epoch** **=** **300**
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
 
