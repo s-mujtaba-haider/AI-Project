@@ -23,6 +23,8 @@ The dataset is split into training and testing sets, with a portion of the data 
 
 ## Visualization
 To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
+![1](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/9a845786-963f-43a4-8b09-add7fc49a9c0)
+
 
 ## Conclusion
 In conclusion, this project demonstrates the effectiveness of various deep learning models in predicting stock prices. By preprocessing the data and utilizing models such as RNN, LSTM, BiLSTM, and GRU, accurate predictions can be made, aiding investors in making informed decisions. The visualization techniques employed provide insights into the performance of the models and aid in interpreting the results.
