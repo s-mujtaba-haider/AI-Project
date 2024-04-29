@@ -137,8 +137,16 @@ The performance of the RNN model can be assessed based on the following regressi
 
 **All** **the** **models** **are** **train** **on** **batch_size** **=** **64** **and** **epoch** **=** **300**
 ## Visualization
-To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots. Additionally, other visualization techniques such as candlestick charts may be employed to provide a more detailed analysis of the predictions.
+To visualize the performance of the models, the predicted stock prices are compared against the actual prices using line plots.
 
+**GRU**:
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/5f081d4f-e12b-4026-aac1-30ec35f5ec45)
+**BiLSTM**:
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/3a3be32c-23de-480e-ac7a-94a86edc057e)
+**RNN**:
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/425fa159-9c24-4ab7-a84f-92dda87f30c0)
+**LSTM**:
+![image](https://github.com/s-mujtaba-haider/AI-Project/assets/110555927/865b2311-c7ba-4280-b612-5a2b415bb00e)
 
 
 
